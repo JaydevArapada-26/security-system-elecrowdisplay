@@ -1,0 +1,15 @@
+SET(SOURCES ui_logo.c
+    ui_HOME.c
+    ui_RFIDSCREEN.c
+    ui_WiFiScreen.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    ui_img_828054267.c
+    fonts/ui_font_MON10.c
+    fonts/ui_font_MON18.c
+    fonts/ui_font_MON20.c
+    fonts/ui_font_MON36.c)
+
+add_library(ui ${SOURCES})
